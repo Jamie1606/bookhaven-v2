@@ -1,6 +1,6 @@
 export default function Banner() {
   return (
-    <div className="pt-16 bg-custom-background w-full">
+    <div className="pt-16 bg-custom-background w-full px-8 xl:px-0">
       <div className="flex flex-col w-full max-w-[1100px] bg-gradient-to-b from-[#D5B895] via-[#D5B895]/70 to-[#D5B895]/40 shadow-lg border py-12 rounded-lg mx-auto px-12">
         <h2 className="text-2xl font-semibold text-custom-text">Welcome to BookHaven &mdash; Your Ultimate Reading Destination! 🌟</h2>
         <p className="mt-3 text-lg font-medium text-custom-text">Discover, Explore, and Get Lost in a World of Books.</p>
