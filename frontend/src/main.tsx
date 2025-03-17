@@ -9,6 +9,9 @@ import URL from "./constant/url";
 import SignUpPage from "./features/public/sign-up/page";
 import SearchPage from "./features/public/search/page";
 import BrowsePage from "./features/public/browse/page";
+import LatestPage from "./features/public/latest/page";
+import PopularPage from "./features/public/popular/page";
+import FilterPage from "./features/public/filter/page";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -20,6 +23,9 @@ createRoot(document.getElementById("root")!).render(
           <Route element={<SignUpPage />} path={URL.SIGNUP} />
           <Route element={<SearchPage />} path={URL.SEARCH} />
           <Route element={<BrowsePage />} path={URL.BROWSE} />
+          <Route element={<LatestPage />} path={URL.LATEST} />
+          <Route element={<PopularPage />} path={URL.POPULAR} />
+          <Route element={<FilterPage />} path={URL.FILTER} />
         </Route>
       </Routes>
     </BrowserRouter>

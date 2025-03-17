@@ -21,13 +21,11 @@ export default function Header() {
         <div className="flex items-center gap-x-10">
           <NavLink href={URL.SEARCH} label="Search" icon={SearchIcon} />
           <NavLink href={URL.BROWSE} label="Browse" icon={BrowseIcon} />
-          <NavLink href={URL.HOME} label="Latest" icon={LatestIcon} />
-          <NavLink href={URL.HOME} label="Popular" icon={PopularIcon} />
-          <NavLink href={URL.HOME} label="Filter" icon={FilterIcon} />
+          <NavLink href={URL.LATEST} label="Latest" icon={LatestIcon} />
+          <NavLink href={URL.POPULAR} label="Popular" icon={PopularIcon} />
+          <NavLink href={URL.FILTER} label="Filter" icon={FilterIcon} />
         </div>
-        <Button onClick={() => navigate(URL.SIGNIN)}>
-          Sign In
-        </Button>
+        <Button onClick={() => navigate(URL.SIGNIN)}>Sign In</Button>
       </header>
     </div>
   );

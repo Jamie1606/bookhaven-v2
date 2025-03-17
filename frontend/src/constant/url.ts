@@ -4,6 +4,9 @@ const URL = {
   SIGNUP: "/signup",
   SEARCH: "/search",
   BROWSE: "/browse",
+  LATEST: "/latest",
+  POPULAR: "/popular",
+  FILTER: "/filter",
 } as const;
 
 export default URL;

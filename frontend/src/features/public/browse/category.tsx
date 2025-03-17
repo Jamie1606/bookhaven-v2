@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 export default function Category() {
   return (
-    <div className="flex flex-col w-3xl mx-auto bg-custom-background px-4 border py-6 rounded-lg shadow-md">
+    <div className="flex flex-col w-[1100px] mx-auto bg-custom-background p-8 border rounded-lg shadow-md">
       <h3 className="text-custom-text font-semibold text-2xl">Genre/Category</h3>
       <div className="flex w-full flex-wrap justify-start gap-x-2 gap-y-2 items-center mt-4">
         <Button variant="outline">All</Button>

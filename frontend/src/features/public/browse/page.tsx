@@ -1,14 +1,14 @@
+import CustomPagination from "@/components/shared/custom-pagination";
 import Category from "./category";
 import CategoryResult from "./category-result";
-import CustomPagination from "./custom-pagination";
 
 const BrowsePage = () => {
   return (
-    <div className="bg-custom-background w-full py-12 flex flex-col">
+    <div className="bg-custom-background w-full py-12">
       <Category />
       <CategoryResult />
 
-      <div className="w-3xl mx-auto mt-10 flex justify-end">
+      <div className="w-[1100px] mx-auto mt-10 flex justify-end">
         <CustomPagination />
       </div>
     </div>
