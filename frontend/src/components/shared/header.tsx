@@ -18,7 +18,7 @@ export default function Header() {
           <img src="/icon.png" width={80} height={80} alt="BookHaven Logo" />
           <span className="text-3xl text-custom-brand font-bold xl:text-4xl">BookHaven</span>
         </Link>
-        <div className="flex items-center gap-x-10">
+        <div className="flex items-center gap-x-6">
           <NavLink href={URL.SEARCH} label="Search" icon={SearchIcon} />
           <NavLink href={URL.BROWSE} label="Browse" icon={BrowseIcon} />
           <NavLink href={URL.LATEST} label="Latest" icon={LatestIcon} />

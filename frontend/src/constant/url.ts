@@ -7,6 +7,7 @@ const URL = {
   LATEST: "/latest",
   POPULAR: "/popular",
   FILTER: "/filter",
+  PRODUCTDETAIL: "/productdetail"
 } as const;
 
 export default URL;

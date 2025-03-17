@@ -12,6 +12,8 @@ import BrowsePage from "./features/public/browse/page";
 import LatestPage from "./features/public/latest/page";
 import PopularPage from "./features/public/popular/page";
 import FilterPage from "./features/public/filter/page";
+import ProductDetailPage from "./features/public/product-detail/page";
+import NotFoundPage from "./features/public/not-found";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
@@ -26,7 +28,9 @@ createRoot(document.getElementById("root")!).render(
           <Route element={<LatestPage />} path={URL.LATEST} />
           <Route element={<PopularPage />} path={URL.POPULAR} />
           <Route element={<FilterPage />} path={URL.FILTER} />
+          <Route element={<ProductDetailPage />} path={`${URL.PRODUCTDETAIL}/:productID`} />
         </Route>
+        <Route path="*" element={<NotFoundPage />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
