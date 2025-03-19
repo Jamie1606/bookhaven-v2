@@ -1,1 +1,10 @@
 services:
+  postgres:
+    image: postgres:17
+    container_name: postgres_db
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=bookhaven
+    ports:
+      - "5432:5432"

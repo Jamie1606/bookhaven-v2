@@ -1,6 +1,5 @@
 import Star from "@/components/shared/star";
 import { Progress } from "@/components/ui/progress";
-import StarIcon from "@/icons/star-icon";
 
 export default function BookReview() {
   return (
